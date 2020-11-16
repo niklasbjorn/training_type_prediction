@@ -1,25 +1,25 @@
 # training_type_prediction
-Building AI course project
-
-# Project Title
 Final project for the Building AI course
 
 ## Summary
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+This tool will be used to analyze data from sportwatches to be able to categorize traning sessions as short, long, interval, tempo or distance types based on their duration and heart rate profiles. 
 
 ## Background
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+I would like for my sportswatch to be able to classify my traning sessions without me having to manually do so.
 
 ## How is it used?
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+From the start it will be as a program run locally on a computer but i hope to be able to make it avalable through the github io server where others could upload their data and get a classification back. 
+
+The program will use the time stamps and hear rate data from from sportswatches and classify it based on predictions made using a set of currated files that have been used for traning the model.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
+The initial training data will be based on files from my own sportswatch. The model will be supervised and likely based on the k-nearest-neighbour-algorithm.
 
 ## Challenges
 What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
 
 ## What next?
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+The next step would be to have the tool directly available on a sportswatch or in a comunity like Strava.
 
 ## Acknowledgments
+As for now none.
